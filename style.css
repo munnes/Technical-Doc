@@ -1,0 +1,107 @@
+
+body{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    font-size:14px;
+    font-family:Arial;
+   
+}
+#main-doc{
+ 
+ text-align:justify;
+ width:75%;
+ padding-right:20px;
+ position:relative;
+}
+
+#navbar
+{
+  text-align:left;
+  border-right:solid;
+  width:20.2%;
+ border-color:gainsboro;
+ height:auto;
+ 
+
+}
+
+    #navbar header h1{
+        position:fixed;
+    }
+#tbl{ 
+    top:100px;
+    position:fixed;
+      height:550px;   
+   overflow-y: scroll;
+width:20%;
+}
+
+#navbar a{
+    text-decoration:none;
+    display:block;
+    border-top: 1px solid;
+ 
+    line-height:50px;
+    padding-left:10px;
+     color:darkslategray;
+  font-weight:700;
+}
+
+.divCode{
+   background-color:lightgray;
+ margin-left:5px;
+    padding:10px 5px 10px 5px;
+}
+@media(max-width:900px){
+body{
+    display:flex;
+    flex-direction:column-reverse;
+    /*justify-content:space-between;*/
+    font-size:14px;
+    font-family:Arial;   
+}
+#navbar
+{
+  text-align:center;
+  border:none;
+  
+  width:auto;
+
+ max-height:200px;
+  position:relative;
+}
+#main-doc{
+ text-align:justify;
+ width:auto;
+padding-right:20px;
+padding-left:20px;
+display:block;
+
+
+}
+#navbar header h1{
+        position:relative;
+    }
+#tbl{ 
+    text-align:left; 
+     border-color:darkslategray;
+      border:solid;
+      max-height :120px;
+   overflow-y: scroll;
+   position:relative;
+   width:auto;
+   top:5px;
+}
+#navbar a{
+    text-decoration:none;
+    display:block;
+    border-bottom: 1px solid;
+ 
+    line-height:30px;
+    padding-left:10px;
+     color:darkslategray;
+  font-weight:700;
+}
+
+}
