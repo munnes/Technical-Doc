@@ -25,7 +25,7 @@ body{
  
 
 }
-
+/*position fixed better to put in child because when put it in navbar it doesn't work proberly in chrome*/
     #navbar header h1{
         position:fixed;
     }
